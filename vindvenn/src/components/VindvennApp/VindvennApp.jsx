@@ -12,8 +12,13 @@ import search_icon from '../Assets/search.png';
 
 const VindvennApp = () => {
     return (
-        <div>
-            
+        <div className='weather-container'>
+            <div className='weather-top-bar'>
+                <input type='text' className='city-search-text' placeholder='Search'></input>
+                <div className='city-search-icon'>
+                    <img src={search_icon} alt=""></img>
+                </div>
+            </div>
         </div>
     )
 }
