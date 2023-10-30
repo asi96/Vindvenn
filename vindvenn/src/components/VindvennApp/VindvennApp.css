@@ -39,3 +39,53 @@
     border-radius: 40px;
     cursor: pointer;
 }
+
+.weather-report-image {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-report-temperature {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.weather-report-location {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.weather-report-data-container {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.data-element {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.element-data {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.icon {
+    margin-top: 10px;
+}

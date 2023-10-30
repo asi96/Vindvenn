@@ -19,6 +19,29 @@ const VindvennApp = () => {
                     <img src={search_icon} alt=""></img>
                 </div>
             </div>
+            <div className='weather-day-report'>
+                <div className='weather-report-image'>
+                    <img src={cloud_weather_icon}></img>
+                </div>
+                <div className='weather-report-temperature'>24°C</div>
+                <div className='weather-report-location'>Bergen</div>
+                <div className='weather-report-data-container'>
+                    <div className='data-element'>
+                        <img src={humidity_icon}></img>
+                        <div className='element-data'>
+                            <div className='humidity-percentage'>64%</div>
+                            <div className='text'>Humidity</div>
+                        </div>
+                    </div>
+                    <div className='data-element'>
+                        <img src={wind_icon}></img>
+                        <div className='element-data'>
+                            <div className='wind-speed'>18 km/h</div>
+                            <div className='text'>Wind Speed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
