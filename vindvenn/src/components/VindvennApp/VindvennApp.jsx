@@ -11,6 +11,9 @@ import wind_icon from '../Assets/wind.png'
 import search_icon from '../Assets/search.png';
 
 const VindvennApp = () => {
+
+    let api_key_openweather = process.env.API_KEY_OPENWEATHER;
+
     return (
         <div className='weather-container'>
             <div className='weather-top-bar'>
