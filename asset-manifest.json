@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Vindvenn/vindvenn/static/css/main.a1757aac.css",
-    "main.js": "/Vindvenn/vindvenn/static/js/main.6197cc83.js",
-    "static/js/787.f79739d1.chunk.js": "/Vindvenn/vindvenn/static/js/787.f79739d1.chunk.js",
-    "static/media/cloud.png": "/Vindvenn/vindvenn/static/media/cloud.20f353f873a9b27949a9.png",
-    "index.html": "/Vindvenn/vindvenn/index.html",
-    "main.a1757aac.css.map": "/Vindvenn/vindvenn/static/css/main.a1757aac.css.map",
-    "main.6197cc83.js.map": "/Vindvenn/vindvenn/static/js/main.6197cc83.js.map",
-    "787.f79739d1.chunk.js.map": "/Vindvenn/vindvenn/static/js/787.f79739d1.chunk.js.map"
+    "main.css": "/Vindvenn/static/css/main.a1757aac.css",
+    "main.js": "/Vindvenn/static/js/main.df901631.js",
+    "static/js/787.f79739d1.chunk.js": "/Vindvenn/static/js/787.f79739d1.chunk.js",
+    "static/media/cloud.png": "/Vindvenn/static/media/cloud.20f353f873a9b27949a9.png",
+    "index.html": "/Vindvenn/index.html",
+    "main.a1757aac.css.map": "/Vindvenn/static/css/main.a1757aac.css.map",
+    "main.df901631.js.map": "/Vindvenn/static/js/main.df901631.js.map",
+    "787.f79739d1.chunk.js.map": "/Vindvenn/static/js/787.f79739d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a1757aac.css",
-    "static/js/main.6197cc83.js"
+    "static/js/main.df901631.js"
   ]
 }
