@@ -104,14 +104,14 @@ const VindvennApp = () => {
                 <div className='weather-report-location'>Bergen</div>
                 <div className='weather-report-data-container'>
                     <div className='data-element'>
-                        <img src={humidity_icon} alt=""></img>
+                        <img src={humidity_icon} alt="" className='icon'></img>
                         <div className='element-data'>
                             <div className='humidity-percentage'>64%</div>
                             <div className='text'>Humidity</div>
                         </div>
                     </div>
                     <div className='data-element'>
-                        <img src={wind_icon} alt=""></img>
+                        <img src={wind_icon} alt="" className='icon'></img>
                         <div className='element-data'>
                             <div className='wind-speed'>18 km/h</div>
                             <div className='text'>Wind Speed</div>
