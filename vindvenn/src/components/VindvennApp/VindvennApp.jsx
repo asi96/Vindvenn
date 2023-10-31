@@ -31,6 +31,14 @@ const VindvennApp = () => {
         let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${searchText[0].value}&units=Metric&appid=${api_key_openweather}`
 
         let apiResponse = await fetch(apiUrl);
+
+        // Error handling if response is empty
+        if(!apiResponse.ok) {
+
+            alert("Failed to fetch weather data for the searched location");
+            return;
+        }
+
         let convertedData = await apiResponse.json();
 
         // Update the displayed weather and data
